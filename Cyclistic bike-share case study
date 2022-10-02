@@ -1,0 +1,56 @@
+-- Case Study: How Does a Bike-Share Navigate Speedy Success?
+
+-- In this file I document my thought process going through a case study
+
+/* Scenario: 
+You are a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director
+of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore,
+your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights,
+your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives
+must approve your recommendations, so they must be backed up with compelling data insights and professional data
+visualizations. */
+
+-- Here are my notes of the scenario presented: 
+/* Scenario
+	Cyclistic is a bikeshare company in Chicago
+	DOM - future success depends on maximizing the number of annual memberships
+	my team - how casual riders and annual members use Cyclistic bikes differently
+	purpose - design a new marketing strat to convert casual riders to annual members */ 
+  
+-- Here are my notes covering the rest of the context-based information given
+/* Facts
+	Many bike options but only 8% use assistive options. Majority use traditional bikes.
+	Most customers use for leisure. 30% use for commute to work. 
+	Lily Moreno is my manager. 
+	I've been working here for 6 months. 
+	Stakeholders (executives) are very detail-oriented. */
+  
+  /* About the Company
+	Launched in 2016. 692 stations across Chicago. 
+	Bikes can be unlocked from one station and returned to another station in the system anytime.
+	Marketing targeted broad consumer segments. 
+	Flexible pricing plans: 
+		1. single-ride 
+		2. full-day passes 
+		3. annual memberships
+	Single or full day = casual riders.
+	annual = cyclistic members. 
+	annual > casual in terms of profit.
+	Flexibility -> more customers
+	Moreno wants to convert casual riders to members (annual). 
+	Moreno believes most if not all casual riders are aware of the annual option already. 
+	We need to know why riders would buy a membership and how to better use digital media for marketing.
+  
+	I want to find out:
+  Differences between casual riders and annual members.
+	Why casual riders would buy annual memberships.
+	How can we use digital media to influence casual riders to become members. */
+  
+  /* Moreno assigned me the question: How do annual members and casual riders use Cyclistic bikes differently? 
+  Produce a report with the following deliverables: 
+  1. A clear statement of the business task
+  2. A description of all data sources used
+  3. Documentation of any cleaning or manipulation of data
+  4. A summary of your analysis
+  5. Supporting visualizations and key findings
+  6. Your top three recommendations based on your analysis */
