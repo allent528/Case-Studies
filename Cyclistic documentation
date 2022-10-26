@@ -1,0 +1,12 @@
+Documentation of any cleaning or manipulation of data for the Cyclistic case study.
+Last updated: 10/26/2022
+
+Data cleaning and manipulation in excel/google sheets for both April and May sheets:
+
+1. Removed duplicates successfully.
+2. Removed whitespaces successfully.
+3. Added ride_length column which shows the duration of bike rentals in hh::mm:ss format. 
+4. Added ride_length_min which converted each ride_length row to minutes.
+5. Added weekday column which extracted the weekday from started_at column.
+6. Added a pivot table to mine for possible trends. 
+7. Exported files to SQL. 
